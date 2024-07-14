@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #caffde97;
+}
+
+.header {
+    text-align: top;
+    margin-bottom: 50px; /* Space between header and display */
+}
+
+.header h1 {
+    font-size: 1.8em;
+    color: #fff8f8d8; /* Change header color */
+}
+
+
+.calculator {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1.5em;
+    border: 1px solid #009605c5;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+button {
+    padding: 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #22c18fda;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00b312;
+}
+
+
+#equals {
+    background-color: #00b312; 
+    width: 100%; 
+    height: 80px; 
+    font-size: 2em; 
+}
+
+#decimal {
+    background-color: #ffffffb7; 
+    color: #000000;
+}
+
+#add {
+    background-color: #ffffff; 
+    color: #000000;
+}
+
+#subtract {
+    background-color: #ffffff; 
+    color: #000000;
+}
+
+#multiply {
+    background-color: #ffffff; 
+    color: #000000;
+}
+
+#divide {
+    background-color: #ffffff; 
+    color: #000000;
+}
+
+#clear {
+    background-color: #ffffff; 
+    color: #000000;
+}
+
+button:hover {
+    opacity: 0.8; /* Slightly change opacity on hover */
+}
+
+
+p {
+    color: aliceblue;
+}
+
+input {
+    color: aliceblue;
+}
